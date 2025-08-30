@@ -1,0 +1,4 @@
+ultralytics==8.3.189
+split-folders==0.5.1
+pyyaml==6.0
+torch>=2.0.0
