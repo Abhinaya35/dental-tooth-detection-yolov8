@@ -6,6 +6,8 @@ This project uses the powerful YOLOv8 object detection model to identify and cla
 
 ## Project Structure
 
+```
+
 ├── ToothNumber_TaskDataset/
 ├── dataset_split/
 ├── scripts/
@@ -22,6 +24,8 @@ This project uses the powerful YOLOv8 object detection model to identify and cla
 ├── LICENSE
 ├── README.md
 └── requirements.txt
+
+```
 
 
 ## Environment Setup
