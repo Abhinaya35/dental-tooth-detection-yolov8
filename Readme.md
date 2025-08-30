@@ -3,20 +3,25 @@
 ## Project Overview
 This project uses the powerful YOLOv8 object detection model to identify and classify different types of dental teeth from images. It covers the entire process—from preparing and organizing the dataset, training the model with advanced deep learning techniques, to evaluating its performance and making predictions with clear visual results. The goal is to create a practical and accurate tool that can help dentists and researchers analyze teeth more efficiently and effectively.
 
+
 ## Project Structure
 
 ├── ToothNumber_TaskDataset/
 ├── dataset_split/
 ├── scripts/
-│   ├── train.py
-│   └── ToothDetection.ipynb
+│ ├── train.py
+│ └── ToothDetection.ipynb
+│
 ├── runs/
-├── data.yaml
+│   ├── train
+│   ├── val
+│   ├── predict
+│   └── predict_post
 ├── yolov8m.pt
-├── requirements.txt
 ├── .gitignore
 ├── LICENSE
-└── README.md
+├── README.md
+└── requirements.txt
 
 
 ## Environment Setup
